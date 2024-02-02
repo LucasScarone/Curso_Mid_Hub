@@ -1,9 +1,16 @@
 * {
     padding: 0;
-    margin: 0 20px;
+    margin: 0;
     box-sizing: border-box;
-    
+    color:rgba(0, 0, 0, 0.815);
 }
+body{
+    padding: 0 80px;
+    background-image: url(/imgs/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .titulo2{ 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -33,7 +40,10 @@ a[href="#"]{
     font-size:20px;
     color: #fdfcfc;
 }
+
 .piedebunner{
+    color: black;
+    background-color: rgb(196, 10, 10);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     border: 2px solid black;
@@ -43,6 +53,7 @@ a[href="#"]{
     bottom: 5px;
 }
 .nav3{
+
     box-sizing: border-box;
     padding-left: 30px;
     width: 29%;
@@ -93,4 +104,10 @@ a[href="#"]{
     position: relative;
     bottom: 40px;
     width: 400px;
+}
+.nav3 a:hover{
+    background-color: #068321;
+    font-size:20px;
+    color: #fdfcfc;
+    transform: scale(0.90);
 }
