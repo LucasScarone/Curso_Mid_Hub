@@ -4,7 +4,7 @@
     box-sizing: border-box;
     color:rgba(0, 0, 0, 0.815);
 }
-body{
+.body{
     padding: 0 80px;
     background-image: url(/imgs/fondo2.jpg);
     background-repeat: no-repeat;
