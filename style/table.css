@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.815);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+caption{
+    caption-side: bottom;
+    text-align: end;
+    font-weight: bold;
+
+}
+table{
+    font-size: 26px;
+    margin-left: 110px;
+    text-align: center;
+    width: 60%;
+
+}
+.logo{
+    display: flex;
+    position: absolute
+}
+thead tr {
+    background-color: rgba(240, 127, 127, 0.507);
+}
+
+.bot{
+    font-size: 28px;
+    margin: 0px 150px;
+}
+.bot p{
+    padding: 10px 0;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+span{
+    font-weight: bold;
+}
+h3{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 26px;
+    display: inline-block;
+    position:relative;
+    width: 80%;
+    height: 60px;
+    text-align: center;
+}
+
+tbody{
+    background-color: rgba(240, 127, 127, 0.507);
+}
+.bot >div{
+    display: flex;
+    gap: 40px;
+}
