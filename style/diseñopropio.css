@@ -7,24 +7,23 @@
     
 }
 .body{
-    padding: 0 70px;
+    padding: 0 60px;
     background-image: url(/imgs/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .titulo2ynav3{
     display: flex;
-    gap: 20px;
     background-color: rgba(255, 255, 255, 0.253);
 }
 .titulo2{
     font-size: 45px;
     font-weight: 400;
-    display: inline-block;    
+    width: 57%;
 }
 .nav3 a{
-    font-size: 20px;
-    position: relative; top: 38px;
+    font-size: 19px;
+    position: relative; top: 13px;
     margin: 5px;
     text-decoration: none;
     background-color: #0a209bf3;
@@ -48,7 +47,11 @@ a[href="#"]{
 
 }
 .nav3{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+
+    
 }
 
 .bunner4{

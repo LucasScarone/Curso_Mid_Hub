@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input {
+    border: 0;
+}
+fieldset{
+    border: 0;
+
+}
+
+.body2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox{
+    display:flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.555);
+
+}
+.logo{
+    display: flex;
+    position: absolute;
+}
+h2{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(196, 10, 10);
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    margin-top: 30px;
+}
+h4{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+label{
+    font-weight: 600;
+}
+
+button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    font-size: 15px;
+}
+.divcheck1{
+    display: flex;
+    flex-direction: column;
+}
+.divcheck2{
+    display: flex;
+    flex-direction: column;
+}
+.f1{
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.uniform{
+    display: flex;
+}
+.radio1{
+    display: flex;
+    flex-direction: column
+}
+.radio2{
+    display: flex;
+    flex-direction: column;
+
+}
+.uniform{
+    display: flex;
+}
+.radio1{
+    display: flex;
+    flex-direction: column
+}
+.radio2{
+    display: flex;
+    flex-direction: column;
+
+}
+
